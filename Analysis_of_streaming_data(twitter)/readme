@@ -1,4 +1,4 @@
-SparkStream
+SparkStream (Used spark DStream)
 Using Spark streaming to connect to twiiter and compute different statistics like
 
 Getting number of tweets over a window
