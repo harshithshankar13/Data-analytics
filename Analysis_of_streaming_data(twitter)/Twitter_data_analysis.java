@@ -33,10 +33,10 @@ public class Question_1 {
 	public static void main(String[] args) {
 		// Set the system properties so that Twitter4j library used by Twitter stream
 		// can use them to generate OAuth credentials
-		System.setProperty("twitter4j.oauth.consumerKey", "ov66oV3uoK6qzvPD4RSnvoncU");
-		System.setProperty("twitter4j.oauth.consumerSecret", "tqj9H0HH7I1q9oGldVghmAKjNnpwlUMHswmM7cvWsfDNU7NSVp");
-		System.setProperty("twitter4j.oauth.accessToken", "594328874-XsF3oQ56UCi3hpETGPaYyq0Of714UjqklK8ANLEk");
-		System.setProperty("twitter4j.oauth.accessTokenSecret", "eD7Rhs90F0K0hC5rpbM1rNOiHs7HxyNnduwM8E915ySmA");
+		System.setProperty("twitter4j.oauth.consumerKey", "secretConsumerKey");
+		System.setProperty("twitter4j.oauth.consumerSecret", "secretConsumerSecret");
+		System.setProperty("twitter4j.oauth.accessToken", "secretconsumeraccessToken");
+		System.setProperty("twitter4j.oauth.accessTokenSecret", "secretaccessTokenSecret");
 		
 		Logger.getLogger("org").setLevel(Level.OFF);
 		Logger.getLogger("akka").setLevel(Level.OFF);
